@@ -10,3 +10,6 @@ To practice my skills, stay consistent and build in public.
 
 ## Status 🌱
 Version 1- more updates and projects coming soon! 
+
+## Live Site 🔗
+https://scriptedbymiranda.github.io/mirandas-blog/
