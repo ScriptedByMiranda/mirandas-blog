@@ -1,13 +1,13 @@
 body {
     background-color: #fff7f9;
-    font-family: Ariel, sans-serif;
+    font-family: Arial, sans-serif;
     color: #333;
     padding: 40px;
     display: flex;
     justify-content: center;
 }
 .container {
-    max-width: 600px;
+    width: 70%;
     background: whitesmoke;
     padding: 30px;
     border-radius: 12px;
@@ -28,7 +28,6 @@ h3 {
     margin-top: 20px;
 }
 p {
-    max-width: 600px;
     line-height: 1.6;
 }
 hr {
@@ -36,29 +35,36 @@ hr {
     border-top: 1px solid #ecc2ec;
     margin: 10px 0;
 }
-ul {
+nav ul {
     list-style: none;
-    margin: 0px;
-    padding: 0px;
-    overflow: hidden;
     background-color: #a45c7c;
     color: #fff7f9;
-    gap: 50px;
     display: flex;
-}
-ul li {
-    float: left;
-    padding: 8px;
-    margin-left: 60px;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
 }
 nav {
-    position: relative;
-    width: 600px;
-    margin-bottom: 20px;
+    position:relative;
+    width: 100%;
+    margin: 0 -30px;
+    width: calc(100% + 60px);
+}
+.contact-links {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+.contact-links img {
+  width: 150px;
+  height: auto;
+  border-radius: 15%;
+  transition: transform 0.2s ease;
 }
 #welcome-message {
     margin-top: 50px;
-    text-align: center;
+    text-align:center;
     margin-bottom: 40px;
 }
 a {
@@ -78,6 +84,10 @@ a:hover {
     padding: 16px;
     background-color: #fff7f9;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+    margin-top: 20px;
+}
+.text-box:hover {
+    background-color: #f9e7eb;
 }
 .text-box p {
     line-height: 2;
@@ -87,7 +97,7 @@ footer {
     background-color: #a45c7cd2;
     border: 1px solid #ecc2ecb4;
     font-size: smaller;
-    height: 15px;
-    margin-top: 30px;
-    
+    height: auto;
+    padding: 8px 16px; 
+    margin: 30px -30px -30px -30px;
 }
